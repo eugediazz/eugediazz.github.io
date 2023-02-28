@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - proyecto final</title>
+    <!-- para incluir estilos css externo-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="css/mi_estilo_CV.css" />
+    
+    <!--traigo tipografia desde google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
+    <!--aqui traigo 3 tipografias desde google si quisiera variar en unos elementos una u otra-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <!-- iconos desde fontawsome Con Javascript-->
+    <script src="https://kit.fontawesome.com/a4e8658f9b.js" crossorigin="anonymous"></script>
+    <!-- iconos desde fontawsome con CSS no funciona no-PRO -->
+    <!--
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a4e8658f9b.css" crossorigin="anonymous">
+    -->
+    </head>
+<body>
+<!-- barra de navegacion superior -->
+    <header class="mi-header">
+        <nav class="mi-nav">
+          <a href="#" class="logo mi-nav-link">CV</a>
+          <button class="mi-nav-toggle" aria-label="Abrir menú"> <!--aria-label dice para que es el boton-->
+            <!-- <i class="fa-duotone fa-bars"></i>  el icono para la barra comprimida-->
+            <i class="fas fa-bars"></i> <!-- el icono para la barra comprimida-->
+        </button>
+          <ul class="mi-nav-menu">
+            <li class="mi-nav-menu-item">
+                <a href="#home" class="mi-nav-menu-link mi-nav-link ancla"><i class="fa-solid fa-house"></i> inicio</a>
+            </li>
+            <li class="mi-nav-menu-item">                
+              <a href="#sobre-mi" class="mi-nav-menu-link mi-nav-link ancla"><i class="fa-solid fa-user"></i> sobre mí</a>
+            </li>
+            <li class="mi-nav-menu-item">                
+              <a href="#formacion" class="mi-nav-menu-link mi-nav-link ancla"><i class="fa-solid fa-school"></i> formación</a>
+            </li>
+            <li class="mi-nav-menu-item">                
+              <a href="#contacto" class="mi-nav-menu-link mi-nav-link mi-nav-menu-link_active ancla"><i class="fa-solid fa-messages"></i> contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+<!-- fin barra de navegacion -->
+<!-- secciones del CV -->
+<section id="home" class="section_home container-fluid">
+    <div class="container-fluid">
+        <div class="col-sm-6">
+            <!-- <img src="https://randomuser.me/api/portraits/women/14.jpg" class="conborde" alt="foto de la persona"/> --> 
+            <img src="https://media.istockphoto.com/id/1353281811/photo/businesswoman-using-laptop.jpg?b=1&s=170667a&w=0&k=20&c=zvEeV5o0jkOyQBX3zqgZGhybbkQ7FzySr4MFV1Rd5d4=" class="conborde img-home" alt="foto de la persona"/>       
+            
+        </div>
+        <div class="col-sm-6">          
+            <!-- <p>Mi nombre es</p> -->
+            <h1>Anita Medina</h1>
+            <h4>Desarrolladora de Software</h4>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:" class="nav-link">anita.medina@example.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#" class="nav-link">(346) 226-9502</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="#" class="nav-link">8940 Lakeshore Rd</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </li>                                 
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- segunda seccion -->
+<section id="sobre-mi" class="section_info container-fluid">      
+    <div class="container-fluid"> 
+        <div class="col-md-6">
+            <h2>Sobre mí</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus officia nisi laborum, ducimus incidunt accusantium ipsum exercitationem veniam in amet hic quam provident, eos corrupti molestiae rerum error necessitatibus. Harum tenetur repellat, esse a exercitationem libero. Corporis quaerat inventore unde, temporibus laudantium deleniti vero quidem culpa a, tenetur nulla voluptates. </p>
+        </div>
+        <div class="col-md-6">
+            <img src="img/varios.jpg" class="conborde" alt="libros, pizarra, laptop"/>     
+        </div>
+    </div>
+</section>
+<!-- tercera seccion -->
+<section id="formacion" class="section_info container-fluid"> 
+    <div class="container-fluid">      
+        <div class="col-sm-6">
+            <h2>Dominio de Software</h2>
+            <div class="each-skills">
+                <div class="candidatos">
+                    <div class="parcial">
+                        <div class="info">
+                            <div class="nome">Fortran</div>
+                            <div class="percentagem-num">96%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentagem" style="width: 96%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="candidatos">
+                    <div class="parcial">
+                        <div class="info">
+                            <div class="nome">LaTeX</div>
+                            <div class="percentagem-num">86%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentagem" style="width: 86%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="candidatos">
+                    <div class="parcial">
+                        <div class="info">
+                            <div class="nome">Shell Script</div>
+                            <div class="percentagem-num">50%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentagem" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="candidatos">
+                    <div class="parcial">
+                        <div class="info">
+                            <div class="nome">Front-End</div>
+                            <div class="percentagem-num">10%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentagem" style="width: 10%;"></div>
+                        </div>
+                    </div>
+                </div>                                    
+                <div class="candidatos">
+                    <div class="parcial">
+                        <div class="info">
+                            <div class="nome">Javascript</div>
+                            <div class="percentagem-num">5%</div>
+                        </div>
+                        <div class="progressBar">
+                            <div class="percentagem" style="width: 5%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <div class="col-sm-6">
+            <h2> Formación y Experiencia </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis provident quidem modi facilis deserunt aliquam animi repellat ut necessitatibus delectus ducimus, cupiditate, eligendi recusandae quibusdam magni nemo dolor nihil voluptatem at aut voluptatum accusantium. Quod, placeat. Nihil ratione nobis eius, totam, commodi quo quia at, amet vel voluptatum qui! </p>
+        </div>
+    </div>
+</section>
+<!-- ultima seccion contacto -->
+<section id="contacto" class="section_info container-fluid">
+    <div class="container-fluid col-sm-12"> 
+        <h2> Contacto </h2>
+        <form action="" method="get">
+        <div>
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder="Ingrese solo su nombre de pila" required/>
+        </div>
+        <div>
+            <label>Apellido</label>
+            <input type="text" name="apellido" placeholder="Ingrese su apellido" required/>
+        </div>
+        <div>
+            <label>e-mail</label>
+            <input type="email" name="email" placeholder="Ingrese un e-mail" required/>
+        </div>
+        <div>
+            <label>mensaje</label>
+            <textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+        </div>
+        <button type="submit">Envíe su mensaje</button>
+        </form>
+    </div>
+</section>
+
+
+<script src="js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>
