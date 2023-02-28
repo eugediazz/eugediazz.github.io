@@ -10,7 +10,7 @@ read accion
 git commit -m "$accion"
 echo '###########################################################'
 git status
-git push origin master  #(lleva al navegador)
+git push origin main  #(lleva al navegador)
 
 
 #-----------
